@@ -8,3 +8,5 @@ There is one issue in which version numbers may collide in large distributed tea
 There are also hooks to backup the database data to Amazon S3 when running the script against your production database.
 
 Copyright 2012 under MIT License. Written by Ernie Park for . Contact ernestipark gmail
+
+NOTE: This code was mostly hacked together in a few hours... it ain't pretty but it gets the job done! Some refactoring and feature adding to the basic concepts could make this very useful. Tools like liquibase and flyaway are good examples to follow. 
